@@ -1,14 +1,13 @@
 modLoader = "javafml"
 loaderVersion = "${forge_loader_version_range}"
 license = "${license}"
-#issueTrackerURL =
-#clientSideOnly =
+issueTrackerURL = "https://github.com/Sir-Cow/maces-plus/issues"
 [[mods]]
 modId = "${mod_id}"
 version = "${version}"
 displayName = "${mod_name}"
-#updateJSONURL =
-#displayURL =
+updateJSONURL = "https://api.modrinth.com/updates/HlmGh1QT/forge_updates.json"
+displayURL = "https://teampreserved.com/maces-plus"
 logoFile = "icon.png"
 credits = "${credits}"
 authors = "${mod_author}"

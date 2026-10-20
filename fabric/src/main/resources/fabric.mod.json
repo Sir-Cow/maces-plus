@@ -8,16 +8,16 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "",
-        "sources": "",
-        "issues": ""
+        "homepage": "https://teampreserved.com/maces-plus",
+        "sources": "https://github.com/Sir-Cow/maces-plus",
+        "issues": "https://github.com/Sir-Cow/maces-plus/issues"
     },
     "license": "${license}",
     "icon": "icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.FabricExampleMod"
+            "sircow.macesplus.FabricMacesPlus"
         ]
     },
     "mixins": [
@@ -32,7 +32,12 @@
     },
     "custom": {
         "modmenu": {
-            "update_checker": false
+            "links": {
+                "modmenu.website": "https://teampreserved.com/maces-plus",
+                "modmenu.modrinth": "https://modrinth.com/project/HlmGh1QT",
+                "modmenu.curseforge": "https://curseforge.com/minecraft/mc-mods/maces-plus"
+            },
+            "update_checker": true
         }
     }
 }
