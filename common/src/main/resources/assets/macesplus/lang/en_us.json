@@ -1,0 +1,8 @@
+{
+  "enchantment.macesplus.blustering": "Blustering",
+  "enchantment.macesplus.collision": "Collision",
+
+  "gamerule.minecraft.mace_player_knockback": "Mace knockback affects players",
+
+  "info.macesplus.conflict": "%s is incompatible with %s. Remove one of them."
+}

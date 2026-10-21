@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.macesplus.collision"
+  },
+  "exclusive_set": "#macesplus:exclusive_set/mace",
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 1
+}

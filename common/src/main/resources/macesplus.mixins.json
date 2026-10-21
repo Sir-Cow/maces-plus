@@ -3,7 +3,14 @@
   "minVersion": "0.8",
   "package": "sircow.macesplus.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "BuiltInRegistriesMixin",
+    "ItemCooldownsMixin",
+    "ItemMixin",
+    "LivingEntityMixin",
+    "MaceItemAccessor",
+    "MaceItemMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {
