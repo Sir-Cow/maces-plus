@@ -17,6 +17,8 @@
 
 ### 📚 New Enchantments
 #### Collision
+![Collision enchantment in use](https://cdn.modrinth.com/data/cached_images/7e385f417dd7be93aa54d49b2c148f4b55d83d50.gif)
+
 - Entities knocked back by the mace's smash attack will take `(2 + (0.15) * (enchant_level) * (damage_dealt)`.
 - Treasure enchantment that can only be obtained through ominous vaults.
 - Incompatible with Wind Burst and Blustering.
@@ -25,6 +27,8 @@
 *This enchant was added to give the mace opportunities to deal AOE damage rather than being used for pure single target damage.*
 
 #### Blustering
+![Blustering enchantment in use](https://cdn.modrinth.com/data/cached_images/f77c97f95f796bbcb53ce3b491a2ed9a4ff620b0.gif)
+
 - Right-clicking (use bind) while holding a blustering mace will launch a wind charge. (3 second cooldown)
 - Each level above 1 will reduce cooldown by 1.25 seconds.
 - Launching a wind charge will consume 1 durability.
