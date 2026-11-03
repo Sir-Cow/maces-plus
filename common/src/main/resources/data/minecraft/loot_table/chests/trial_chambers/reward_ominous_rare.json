@@ -15,15 +15,17 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 20,
-              "min": 5
-            },
-            "options": "#minecraft:on_random_loot"
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 5
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:crossbow",
           "weight": 4
         },
@@ -34,69 +36,79 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 20,
-              "min": 10
-            },
-            "options": "#minecraft:on_random_loot"
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:diamond_axe",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": {
-              "type": "minecraft:uniform",
-              "max": 20,
-              "min": 10
-            },
-            "options": "#minecraft:on_random_loot"
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:diamond_chestplate",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": [
-              "minecraft:knockback",
-              "minecraft:punch",
-              "minecraft:smite",
-              "minecraft:looting",
-              "minecraft:multishot"
-            ]
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:punch",
+                "minecraft:smite",
+                "minecraft:looting",
+                "minecraft:multishot"
+              ]
+            }
+          ],
           "name": "minecraft:book",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": [
-              "minecraft:breach",
-              "minecraft:density"
-            ]
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:breach",
+                "minecraft:density"
+              ]
+            }
+          ],
           "name": "minecraft:book",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": [
-              "minecraft:wind_burst",
-              "macesplus:blustering",
-              "macesplus:collision"
-            ]
-          },
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:wind_burst",
+                "macesplus:collision",
+                "macesplus:blustering"
+              ]
+            }
+          ],
           "name": "minecraft:book",
           "weight": 6
         },

@@ -9,7 +9,6 @@ import net.minecraft.world.entity.projectile.hurtingprojectile.windcharge.WindCh
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.MaceItem;
-import net.minecraft.world.item.component.SwingAnimation;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
@@ -44,7 +43,7 @@ public class ItemMixin {
         }
 
         player.getCooldowns().addCooldown(stack, 60 - 25 * (blusteringLevel - 1));
-        player.swing(InteractionHand.MAIN_HAND, SwingAnimation.DEFAULT, true);
+        player.swing(hand);
         cir.setReturnValue(InteractionResult.SUCCESS);
     }
 }
